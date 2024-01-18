@@ -114,3 +114,5 @@ where $\xi$ controls the macroscopic parameter and $\braket{\,}$ denotes moment.
 $$
 \rho\braket{\xi} = m\int{\xi f\,d\bold{c}}
 $$
+
+$P_{\xi}$ is the rate of molecular property $\xi$, per unit volume, because of collisions. In case of elastic collisions, it evaluates to zero.
