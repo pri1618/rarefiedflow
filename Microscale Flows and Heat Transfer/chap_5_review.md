@@ -3,13 +3,13 @@
 Burnett equations are a superset of Navier-Stokes. Burnett order terms are of the order $\text{Kn}^{2}$.
 
 <aside>
-❓ Burnett-order?
+❓ Burnett-order
 
 </aside>
 
 ### Boltzmann Equation
 
-Solution is a single particle distribution function. Macroscopic parameters (density, velocity) are obtained by taking moments of the distribution function.
+The solution is a single particle distribution function. Macroscopic parameters (density, velocity) are obtained by taking moments of the distribution function.
 
 <aside>
 💡 Moment of a distribution function
@@ -17,7 +17,7 @@ If the function is a probability distribution, then the first moment is the expe
 
 </aside>
 
-Solution is a distribution function $f(\bold{x}, \bold{c}, t)$, which expresses the probability fo finding a molecule in a volume $d\bold{x}$ having velocity in the range $\bold{c}$ to $\bold{c} + d\bold{c}$  at time $t$.
+The solution is a distribution function $f(\bold{x}, \bold{c}, t)$, which expresses the probability of finding a molecule in a volume $d\bold{x}$ having velocity in the range $\bold{c}$ to $\bold{c} + d\bold{c}$  at time $t$.
 
 Mathematical representation - 
 
@@ -43,7 +43,7 @@ Maxwell-Boltzmann distribution is the solution for a simple case when the gas is
 
 ### Extraction of Macroscopic Quantities
 
-Number density, simplied and shown with just one integral sometimes.
+Number density is simplified and shown with just one integral sometimes.
 
 $$
 n = \int{\int{\int_{-\infin}^{\infin} f(\bold{x},\bold{c}, t)d\bold{c}}}
@@ -63,7 +63,7 @@ $$
 u_{i} = \frac{1}{n}\int{c_{i}f(\bold{x},\bold{c},t)d\bold{c}}
 $$
 
-And hence the momentum density in the $\text{i}$-th direction- 
+And hence the mass flow in the $\text{i}$-th direction- 
 
 $$
 \rho u_{i} = m\int{c_{i}f(\bold{x},\bold{c},t)d\bold{c}}
@@ -90,16 +90,16 @@ $$
 
 (Using a control volume analysis, kind of)
 
-Consider a general density $\bold{G}$ and its flow through a surface $dS$ which has the nomal $\bold{c}$ component to be $c_{n}$. Flow of the quantity per unit area per unit time would be $\int{c_{n}\,G\,d\bold{c}}$. 
+Consider a general density $\bold{G}$ and its flow through a surface $dS$ which has the normal $\bold{c}$ component to be $c_{n}$. The flow of the quantity per unit area per unit time would be $\int{c_{n}\, G\,d\bold{c}}$. 
 
-Substituting $G = c_{j}f$ would give j-th component of momentum in the i-th direction. In addition to the macroscopic momentum flow term there appears a pressure term by virtue of random molecular motion.
+Substituting $G = c_{j}f$ would give the j-th component of momentum in the i-th direction. In addition to the macroscopic momentum flow term, there appears a pressure term by virtue of random molecular motion.
 
 Similar analysis for the energy flow with $G = \frac{1}{2}c^{2}f$, yields the expected macroscopic energy flow term and the work done by stress term, along with a heat flux vector ($\bold{q}$).
 
  
 
 <aside>
-💡 In the Navier Stokes, viscous force and conduction are also referred to as the diffusion terms. They are due to random motion of the molecules.
+💡 In the Navier Stokes, viscous force and conduction are also referred to as the diffusion terms. They are due to the random motion of the molecules.
 
 </aside>
 
@@ -115,4 +115,4 @@ $$
 \rho\braket{\xi} = m\int{\xi f\,d\bold{c}}
 $$
 
-$P_{\xi}$ is the rate of molecular property $\xi$, per unit volume, because of collisions. In case of elastic collisions, it evaluates to zero.
+$P_{\xi}$ is the rate of molecular property $\xi$, per unit volume, because of collisions. In the case of elastic collisions, it evaluates to zero.
